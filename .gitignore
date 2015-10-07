@@ -1,0 +1,4 @@
+*.pyc
+dist/*
+build/*
+travis_ci_tutorial.egg-info/*

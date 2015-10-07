@@ -1,0 +1,26 @@
+laguage: python
+python:
+    - "2.6"
+    - "2.7"
+
+install:
+    - sudo apt-get install wget
+    - pip install unittest2
+    - python setup.py install
+    - ./custom_installation.sh
+
+before_script:
+    - mkdir /var/tmp/tests
+    #- wget www.google.es > /var/tmp/tests/sample_data.json
+
+scripts:
+    - nosetests -v
+    #- travis-ci-tutorial /var/tmp/tests/sample_data.json
+
+notifications:
+    email:
+        recipients:
+            - mail@example.com
+            - mail2@example.com
+        on_succes: change #could be always, never, change
+        on_failure: always # could be always, never, change
