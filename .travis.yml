@@ -7,7 +7,7 @@ install:
     - sudo apt-get install wget
     - sudo pip install unittest2
     - sudo python setup.py install
-    #- ./custom_installation.sh
+    - ./custom_installation.sh
 
 before_script:
     - mkdir /var/tmp/tests
