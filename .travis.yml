@@ -5,7 +5,7 @@ python:
 install: True
 #   - sudo apt-get install wget
 #    - sudo pip install unittest2
-    #- sudo python setup.py install
+#- sudo python setup.py install
 #    - ./custom_installation.sh
 
 #before_script:
