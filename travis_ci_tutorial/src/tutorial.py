@@ -6,7 +6,7 @@ def sum_elements(elements):
     #return sum(int(i) for i in elements)
     result = 0;
     for element in elements:
-        result = element
+        result += element
     return result
 
 def main():
