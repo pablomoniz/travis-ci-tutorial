@@ -11,7 +11,7 @@ install:
 
 before_script:
     - mkdir /var/tmp/tests
-    #- wget www.google.es > /var/tmp/tests/sample_data.json
+    - wget www.google.es > /var/tmp/tests/sample_data.json
 
 scripts:
     - nosetests -v
