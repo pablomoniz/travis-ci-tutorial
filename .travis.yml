@@ -13,4 +13,4 @@ before_script:
 
 script:
     - nosetests -v
-    - travis_ci_tutorial -f test.json
+    - travis-ci-tutorial -f test.json
