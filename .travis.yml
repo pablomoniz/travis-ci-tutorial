@@ -14,13 +14,13 @@ install:
 #    - wget www.google.es > /var/tmp/tests/sample_data.json
 
 scripts:
-    - nosetests -v
-    #- travis-ci-tutorial /var/tmp/tests/sample_data.json
+#    - nosetests -v
+    - travis-ci-tutorial /var/tmp/tests/sample_data.json
 
-notifications:
-    email:
-        recipients:
-            - mail@example.com
-            - mail2@example.com
-        on_succes: change #could be always, never, change
-        on_failure: always # could be always, never, change
+#notifications:
+#    email:
+#        recipients:
+#            - mail@example.com
+#            - mail2@example.com
+#        on_succes: change #could be always, never, change
+#        on_failure: always # could be always, never, change
