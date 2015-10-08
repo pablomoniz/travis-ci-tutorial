@@ -12,4 +12,5 @@ before_script:
     - wget www.google.es > /var/tmp/tests/sample_data.json
 
 script:
-    - ls -al
+    - nosetests -v
+    - travis_ci_tutorial -i /var/tmp/tests/sample_data.json
