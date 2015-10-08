@@ -4,6 +4,8 @@ python:
 
 install:
     - sudo pip install unittest2
+    - sudo apt-get install wget
+    - sudo setup.py install
 
 script:
     - ls -al
